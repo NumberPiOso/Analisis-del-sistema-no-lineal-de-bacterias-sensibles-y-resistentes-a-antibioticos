@@ -1,0 +1,5 @@
+plot(Uout(1:80),Rout(2:81),Uout(1:80),Sout(2:81))
+legend ('Bacterias resistentes','Bacterias sensibles')
+ylabel('Salida adimensional')
+xlabel('Entrada(u_1)')
+title('Curva de linealidad')
